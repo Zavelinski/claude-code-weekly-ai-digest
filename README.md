@@ -17,8 +17,8 @@ Output defaults to `ai-digest-<YYYY>-W<week>.md` in the current directory.
 ## Install
 
 ```bash
-git clone https://github.com/Zavelinski/claude-code-weekly-ai-digest.git
-cd claude-code-weekly-ai-digest
+git clone https://github.com/Zavelinski/newsletter-automation.git
+cd newsletter-automation
 ```
 
 **macOS / Linux**
