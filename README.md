@@ -1,8 +1,8 @@
 # weekly-ai-digest for Claude Code
 
-[![License: MIT](https://img.shields.io/github/license/Zavelinski/newsletter-automation)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Zavelinski/newsletter-automation?style=flat)](https://github.com/Zavelinski/newsletter-automation/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/Zavelinski/newsletter-automation)](https://github.com/Zavelinski/newsletter-automation/commits)
+[![License: MIT](https://img.shields.io/github/license/Zavelinski/claude-code-weekly-ai-digest)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Zavelinski/claude-code-weekly-ai-digest?style=flat)](https://github.com/Zavelinski/claude-code-weekly-ai-digest/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/Zavelinski/claude-code-weekly-ai-digest)](https://github.com/Zavelinski/claude-code-weekly-ai-digest/commits)
 [![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-8A2BE2)](https://claude.com/claude-code)
 
 A [Claude Code](https://claude.com/claude-code) skill that produces a **sourced, skimmable weekly AI roundup**. Ask for "what happened in AI this week" and Claude pulls the last 7 days from multiple sources, dedupes and clusters by story, ranks by signal, and writes a link-backed markdown digest. No hype, every factual claim linked.
@@ -22,7 +22,7 @@ Output defaults to `ai-digest-<YYYY>-W<week>.md` in the current directory.
 ## Install
 
 ```bash
-git clone https://github.com/Zavelinski/newsletter-automation.git
+git clone https://github.com/Zavelinski/claude-code-weekly-ai-digest.git
 cd newsletter-automation
 ```
 
@@ -62,3 +62,14 @@ Original work, written from scratch. Inspired by the general idea of a weekly AI
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+---
+
+## Install as a Claude Code plugin
+
+```bash
+/plugin marketplace add Zavelinski/claude-code-skills
+/plugin install weekly-ai-digest@claude-code-skills
+```
+
+Part of the **[claude-code-skills](https://github.com/Zavelinski/claude-code-skills)** collection: a suite of focused, original Claude Code skills.
